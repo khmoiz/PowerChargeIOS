@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		045B346A234676C40036BC79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B3469234676C40036BC79 /* AppDelegate.swift */; };
-		045B346C234676C40036BC79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B346B234676C40036BC79 /* ViewController.swift */; };
 		045B346F234676C40036BC79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045B346D234676C40036BC79 /* Main.storyboard */; };
 		045B3471234676C60036BC79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045B3470234676C60036BC79 /* Assets.xcassets */; };
 		045B3474234676C60036BC79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045B3472234676C60036BC79 /* LaunchScreen.storyboard */; };
+		049299F52346CEEE00053855 /* CustomerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049299F42346CEEE00053855 /* CustomerData.swift */; };
+		049299FB2346DF4200053855 /* FinalBillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049299FA2346DF4200053855 /* FinalBillVC.swift */; };
+		049299FD2346F13D00053855 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 049299FC2346F13D00053855 /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		045B3466234676C40036BC79 /* MK_hydro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MK_hydro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		045B3469234676C40036BC79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		045B346B234676C40036BC79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		045B346E234676C40036BC79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		045B3470234676C60036BC79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		045B3473234676C60036BC79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		045B3475234676C60036BC79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049299F42346CEEE00053855 /* CustomerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerData.swift; sourceTree = "<group>"; };
+		049299FA2346DF4200053855 /* FinalBillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalBillVC.swift; sourceTree = "<group>"; };
+		049299FC2346F13D00053855 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,14 @@
 		045B3468234676C40036BC79 /* MK_hydro */ = {
 			isa = PBXGroup;
 			children = (
+				049299FC2346F13D00053855 /* logo.png */,
 				045B3469234676C40036BC79 /* AppDelegate.swift */,
-				045B346B234676C40036BC79 /* ViewController.swift */,
 				045B346D234676C40036BC79 /* Main.storyboard */,
 				045B3470234676C60036BC79 /* Assets.xcassets */,
 				045B3472234676C60036BC79 /* LaunchScreen.storyboard */,
 				045B3475234676C60036BC79 /* Info.plist */,
+				049299F42346CEEE00053855 /* CustomerData.swift */,
+				049299FA2346DF4200053855 /* FinalBillVC.swift */,
 			);
 			path = MK_hydro;
 			sourceTree = "<group>";
@@ -122,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				049299FD2346F13D00053855 /* logo.png in Resources */,
 				045B3474234676C60036BC79 /* LaunchScreen.storyboard in Resources */,
 				045B3471234676C60036BC79 /* Assets.xcassets in Resources */,
 				045B346F234676C40036BC79 /* Main.storyboard in Resources */,
@@ -135,7 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				045B346C234676C40036BC79 /* ViewController.swift in Sources */,
+				049299FB2346DF4200053855 /* FinalBillVC.swift in Sources */,
+				049299F52346CEEE00053855 /* CustomerData.swift in Sources */,
 				045B346A234676C40036BC79 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
